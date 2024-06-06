@@ -2,8 +2,8 @@
 
 DELIMITER $$
 CREATE PROCEDURE delete_advisor (
-IN p_s_ID VARCHAR (11),
-IN p_i_ID VARCHAR(5)
+	IN p_s_ID VARCHAR (11),
+	IN p_i_ID VARCHAR(5)
 )
 BEGIN
     DELETE FROM advisor
