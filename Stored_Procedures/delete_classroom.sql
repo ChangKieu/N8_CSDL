@@ -7,7 +7,7 @@ BEGIN
     DELETE FROM classroom
     WHERE
         building = p_building AND 
-		room_number = p_room_number;
+	room_number = p_room_number;
 END$$
 DELIMITER ;
 -- Xóa phòng 101 ở tòa A1
