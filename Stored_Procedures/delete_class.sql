@@ -2,7 +2,7 @@
 DELIMITER $$
 CREATE PROCEDURE delete_class (
 	p_courseid VARCHAR(8),
-    p_classid VARCHAR(8)
+    	p_classid VARCHAR(8)
 )
 BEGIN
     DELETE FROM class
