@@ -1,0 +1,30 @@
+1. Department
+- Nội dung: Khoa/Viện đào tạo
+- Khóa chính: PRIMARY KEY (dept_name)
+2. Instructor
+- Nội dung: Thông tin giảng viên
+- Khóa chính: PRIMARY KEY (id)
+3. Student
+- Nội dung: Liên kết sinh viên với các lớp học mà họ tham gia
+- Khóa chính: PRIMARY KEY (ID)
+4. Class
+- Nội dung: Các lớp khóa học
+- Khóa chính: PRIMARY KEY (course_id, class_id, semester, year)
+5. Course
+- Nội dung: Các khóa học
+- Khóa chính: PRIMARY KEY (course_id)
+6. Classroom
+- Nội dung: Phòng học
+- Khóa chính: PRIMARY KEY (building, room_number)
+7. Takes
+- Nội dung: Học tập
+- Khóa chính: PRIMARY KEY (ID, course_id, class_id, semester, year)
+8. Teaches
+- Nội dung: Liên kết giảng viên với phần học mà họ giảng dạy.
+- Khóa chính: PRIMARY KEY (ID, course_id, class_id, semester, year)
+9. Advisor
+- Nội dung: Liên kết sinh viên với giảng viên cố vấn.
+- Khóa chính: PRIMARY KEY (s_ID)
+10. Time_slot
+- Nội dung: Thông tin về khung thời gian của các lớp học
+- Khóa chính: PRIMARY KEY (time_slot_id)
